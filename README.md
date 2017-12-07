@@ -1,2 +1,2 @@
-# stat6306introdatascience
-Files and projects for Stat 6306 Introduction to Data Science
+# Intro to Data Science.
+Files and projects for Introduction to Data Science for the Masters in Data Science at SMU. This unit is focused on version control.
