@@ -1,0 +1,15 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+skill <- c("computer programming", "Math", "Statistics", "Machine Learning", "Psychology", "NLP",
+           "Image Processing", "Communication/presentation", "Data Visualization")
+rating <- c(3, 2, 2, 3, 3, 3, 2, 2, 3)
+
+df <- as.data.frame(skill)
+df$rating <- rating
+barplot(df$rating, names.arg = df$skill, axes = T, col = "red", las=3, main = "Personal rating for skill levels (1-5)")
+```
+
